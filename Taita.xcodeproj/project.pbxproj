@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4DB0D98E1AFC176500F6344D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0D98D1AFC176500F6344D /* AppDelegate.swift */; };
-		4DB0D9901AFC176500F6344D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0D98F1AFC176500F6344D /* ViewController.swift */; };
 		4DB0D9931AFC176500F6344D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB0D9911AFC176500F6344D /* Main.storyboard */; };
 		4DB0D9951AFC176500F6344D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB0D9941AFC176500F6344D /* Images.xcassets */; };
 		4DB0D9981AFC176500F6344D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB0D9961AFC176500F6344D /* LaunchScreen.xib */; };
 		4DB0D9A41AFC176600F6344D /* TaitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0D9A31AFC176600F6344D /* TaitaTests.swift */; };
+		4DD9DB871AFC54D30049DCBB /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9DB861AFC54D30049DCBB /* ContainerViewController.swift */; };
+		4DD9DB891AFC5BAA0049DCBB /* VideosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9DB881AFC5BAA0049DCBB /* VideosTableViewController.swift */; };
+		4DD9DB8B1AFD201A0049DCBB /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9DB8A1AFD201A0049DCBB /* CategoriesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		4DB0D9881AFC176500F6344D /* Taita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB0D98C1AFC176500F6344D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DB0D98D1AFC176500F6344D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DB0D98F1AFC176500F6344D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4DB0D9921AFC176500F6344D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DB0D9941AFC176500F6344D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4DB0D9971AFC176500F6344D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4DB0D99D1AFC176600F6344D /* TaitaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaitaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB0D9A21AFC176600F6344D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DB0D9A31AFC176600F6344D /* TaitaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaitaTests.swift; sourceTree = "<group>"; };
+		4DD9DB861AFC54D30049DCBB /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		4DD9DB881AFC5BAA0049DCBB /* VideosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosTableViewController.swift; sourceTree = "<group>"; };
+		4DD9DB8A1AFD201A0049DCBB /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				4DB0D98D1AFC176500F6344D /* AppDelegate.swift */,
-				4DB0D98F1AFC176500F6344D /* ViewController.swift */,
 				4DB0D9911AFC176500F6344D /* Main.storyboard */,
 				4DB0D9941AFC176500F6344D /* Images.xcassets */,
 				4DB0D9961AFC176500F6344D /* LaunchScreen.xib */,
 				4DB0D98B1AFC176500F6344D /* Supporting Files */,
+				4DD9DB861AFC54D30049DCBB /* ContainerViewController.swift */,
+				4DD9DB881AFC5BAA0049DCBB /* VideosTableViewController.swift */,
+				4DD9DB8A1AFD201A0049DCBB /* CategoriesTableViewController.swift */,
 			);
 			path = Taita;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DB0D9901AFC176500F6344D /* ViewController.swift in Sources */,
 				4DB0D98E1AFC176500F6344D /* AppDelegate.swift in Sources */,
+				4DD9DB871AFC54D30049DCBB /* ContainerViewController.swift in Sources */,
+				4DD9DB891AFC5BAA0049DCBB /* VideosTableViewController.swift in Sources */,
+				4DD9DB8B1AFD201A0049DCBB /* CategoriesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +419,7 @@
 				4DB0D9A91AFC176600F6344D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DB0D9AA1AFC176600F6344D /* Build configuration list for PBXNativeTarget "TaitaTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				4DB0D9AC1AFC176600F6344D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
